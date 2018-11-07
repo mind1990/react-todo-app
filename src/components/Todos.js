@@ -5,7 +5,10 @@ class Todos extends Component {
 	render() {
 		let todos = this.props.todos.map( (todo) => {
 			return (
-			<Todo key={todo.is} todo={todo} />
+			<Todo 
+				key={todo.id} 
+				todo={todo} 
+			/>
 			)
 		})
 		return (

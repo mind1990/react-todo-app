@@ -23,7 +23,8 @@ class TodosContainer extends Component {
 	render() {
 		return (
 			<div className='todosContainer'>
-				<Todos todos={this.state.todos} />
+				<Todos 
+					todos={this.state.todos} />
 			</div>
 		);
 	}
