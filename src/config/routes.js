@@ -8,5 +8,5 @@ export default (
 		<Route exact path='/' component={ Home } />
 		<Route path='/todos' component={ TodosContainer } />
 	</Switch>
-)
+);
 
