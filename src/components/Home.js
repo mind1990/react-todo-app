@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 class Home extends Component {
-	render () {
+	render() {
 		return (
 			<div>
-				<h1>Home Page</h1>
+				<h1 className='todosContainer'>Home Page</h1>
 			</div>
-		)
+		);
 	}
 }
 
