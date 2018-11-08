@@ -11,7 +11,7 @@ class CreateTodoForm extends Component {
 	}
 	onInputChange(event) {
 		this.setState({
-			todo: event.target.value;
+			todo: event.target.value
 		})
 	}
 	onFormSubmit(event) {
@@ -19,7 +19,7 @@ class CreateTodoForm extends Component {
 		let todo = this.state.todo;
 		this.props.createTodo(todo);
 		this.setState({
-			todo: '';
+			todo: ''
 		});
 	}
 	render() {
@@ -38,3 +38,5 @@ class CreateTodoForm extends Component {
 		)	
 	}
 }
+
+export default CreateTodoForm;
