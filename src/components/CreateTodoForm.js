@@ -19,7 +19,7 @@ class CreateTodoForm extends Component {
 		let todo = this.state.todo;
 		this.props.createTodo(todo);
 		this.setState({
-			todo: ""
+			todo: ''
 		})
 	}
 	render() {
